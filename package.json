@@ -1,13 +1,19 @@
 {
   "name": "eje_guia_levhita",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "test patch 2",
+  "main": "lib/alanPoe.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1", 
     "build":"./node_modules/.bin/babel src --out-dir lib" 
   },
-  "author": "",
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DolceLemus/librer-a-test-.git"
+  },
+
+  "author": "Dulce <dulce.lemus.lara@gmail.com>, Elizabeth <linkelin08@hotmail.com>",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
